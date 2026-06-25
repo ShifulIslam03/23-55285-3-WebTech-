@@ -1,19 +1,47 @@
 <!DOCTYPE html>
+
 <html>
-    <head></head>
+    <head>
+        <title>Documents Upload</title>
+    </head>
+
 <body>
-    <header>
+
+<header>
     <h1>University Admission Form</h1>
+
     <nav>
         <a href="index.html">Personal Info</a>
         <a href="academic.html">Academic Info</a>
         <a href="documents.html">Documents</a>
     </nav>
-    </header>
-    <form>
-        <fieldset>
-            <legend><h3>Docoments</h3></legend>
-        </fieldset>
-    </form>
-</body>    
+</header>
+
+<form>
+    <fieldset>
+        <legend><h3>Documents Upload</h3></legend>
+
+        <label>Upload Transcript</label>
+        <input type="file" accept=".pdf"  required>
+        <br>
+
+        <label>Upload Resume</label>
+        <input type="file" accept=".doc" required>
+        <br>
+
+        <label>Upload Passport Size Photo</label>
+        <input type="file" accept=".jpg" required>
+        <br>
+
+        <label>Upload National ID/Birth Certificate</label>
+        <input type="file">
+        <br>
+
+        <input type="submit">
+        <input type="reset">
+
+    </fieldset>
+</form>
+
+</body>
 </html>

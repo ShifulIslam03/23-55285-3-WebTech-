@@ -1,19 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <title>Academic Information</title>
+    </head>
+
 <body>
+
     <header>
-    <h1>University Admission Form</h1>
-    <nav>
-        <a href="index.html">Personal Info</a>
-        <a href="academic.html">Academic Info</a>
-        <a href="documents.html">Documents</a>
-    </nav>
+        <h1>University Admission Form</h1>
+
+        <nav>
+            <a href="index.html">Personal Info</a>
+            <a href="academic.html">Academic Info</a>
+            <a href="documents.html">Documents</a>
+        </nav>
     </header>
+
     <form>
         <fieldset>
             <legend><h3>Academic Information</h3></legend>
+
+            <label>Previous Institution</label>
+            <input type="text" placeholder="Enter institution name" maxlength="50" required>
+            <br>
+
+            <label>SSC GPA</label>
+            <input type="text" placeholder="Enter SSC GPA" required>
+            <br>
+
+            <label>HSC GPA</label>
+            <input type="text" placeholder="Enter HSC GPA" required>
+            <br>
+
+            <label>Preferred Department</label>
+            <select required>
+                <option value="">Select Department</option>
+                <option>CSE</option>
+                <option>EEE</option>
+                <option>BBA</option>
+                <option>Civil Engineering</option>
+                <option>English</option>
+            </select>
+            <br>
+
+            <label>Interested Subjects</label>
+            <input type="checkbox">Programming
+            <input type="checkbox">Math
+            <input type="checkbox">Database
+            <input type="checkbox">Artificial Intelligence
+            <br>
+
+            <input type="submit">
+            <input type="reset">
+
         </fieldset>
     </form>
-</body>    
+
+</body>
 </html>
