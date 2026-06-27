@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section{
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#about{
+    color: blue;
+    background-color: lightblue;
+}
+
+#education{
+    background-color: lightgreen;
+}
+
+#hobbies{
+    background-color: lightyellow;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+hr{
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    
+}
