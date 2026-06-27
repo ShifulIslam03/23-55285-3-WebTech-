@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    margin: auto;
+    background-color: lightblue;
+}
+ header{
+    background-color: skyblue;
+    padding: 2px;
+    
+ }
+
+ .one{
+    width: 75%;
+    margin: 20px auto;
+    font-style: italic;
+    padding: 10px;
+    border: 4px double;
+    border-radius: 10px;
+ }
+ h3{
+    text-align: center;
+ }
+ img{
+    border: 4px double gray;
+    border-radius: 10px;
+ }
+
+.profile p{
+    font-size: 20px;
+    line-height: 25px;
+}
+span{
+    font-style: normal;
+    font-weight: bold;
+}
+footer{
+    background-color: skyblue;
+    color: white;
+    padding: 10px;
+}
